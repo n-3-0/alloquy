@@ -42,9 +42,9 @@ The goal is to allow standard IRCv3 clients to be able to join and interact with
 
 When the client negotiates the ability to do so, direct messages will be end-to-end encrypted with a symmetric key created via DH exchange, such that each person's DMs are encrypted between the two in a way the server cannot know, but the server can host the messages for later retrieval. This is what enables messaging someone who is offline, or reading chat history without saving the entire conversation to disk (later enabling multi-device support).
 
-### Mumble
+### Mumble (via murmur Server)
 
-Mumble is an amazing VoIP solution, and we can leverage it to enable low-latency communication between users.
+Mumble is an amazing VoIP solution, and we can leverage its server (Murmur) to enable low-latency communication between users.
 
 ### `libobs`
 
